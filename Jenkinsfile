@@ -12,9 +12,9 @@ pipeline {
                 sh 'whoami'
             }
         }
-        stage('Echo Hello DD') {
+        stage('Echo Hello DD DD') {
             steps {
-                echo 'Hello, DD!'
+                echo 'Hello, DD DD!'
             }
         }
         stage('List Files in Workspace') {
